@@ -1,0 +1,121 @@
+ body{
+        background-color: #bbf4ed;
+        }
+.page{
+    display:flex;
+    flex-direction: column;
+    padding:1em;      
+}
+ .header{
+    display: flex;
+     }
+#title{
+    font-size:2.4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 1em;
+    flex:3;
+            }
+ #title a{
+     color:black;
+      text-decoration: none;
+    }
+#title a:hover{
+    color:rgb(80, 13, 204); 
+    text-decoration: none;
+}
+.addDiv{
+        flex:1;
+        margin-top:3em;
+                }
+ #btnAdd {
+        background-color: #63a0e6;
+        border-radius: 3px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 17px;
+        padding: 12px;
+        text-decoration: none;
+        border:none;
+        margin-left:6em;
+                }
+#btnAdd:hover {
+            background-color: #10116e;
+            text-decoration: none;
+            color:#fff;
+                }
+.container{ 
+                margin-left:1.5em;
+                    }
+
+#listaProduse{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+td{
+    padding:1em;
+}
+ #despre{
+            width:45%;
+            }
+ #btns{
+            padding-top:3em;
+            display:inline-flex;
+            }
+.imagineClass{                        
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+        }
+.numeClass{
+                font-weight: bold;
+                font-size:22px;
+                margin-left:1em;
+                font-family:Arial, Helvetica, sans-serif;
+        }
+.ingredienteClass{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                margin-left:1.5em;
+        }
+.btnModifica {
+            background-color: #63a0e6;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 17px;
+            padding: 12px;
+            text-decoration: none;
+            border:none;
+            margin-left:6em;
+                }    
+.btnModifica:hover {
+            background-color: #10116e;
+            text-decoration: none;
+            color:#fff;
+                        }
+.btnSterge{
+            background-color: #df4562;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 17px;
+            padding: 12px;
+            text-decoration: none;
+            border:none;
+        }
+.btnSterge:hover {
+                background-color: #a50c28;
+                text-decoration: none;
+                }
+                
+ #loadingImg{       
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px; 
+            height: 120px;  
+        }
+        

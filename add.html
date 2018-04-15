@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="add.css">
+    <script src="add.js"></script>
+	</head>
+    <body onload="drawProduse();">
+            <div class="page">
+                <div class="header">
+                    <p id="title"><a href="admin.html">Cald si bun (Admin)</a></p>
+                </div>
+                <div class="container"> 
+                    <form onsubmit="adaugaReteta(this, event)" id="addForm">
+                        <table id="addTable">
+                            <tr>
+                                <td><label for="nume">Nume:</label></td>
+                                <td><input name="nume" id="nume" type="text" ></td>
+                            </tr>
+                            <tr>
+                                <td><label for="pic">URL imagine:</label></td>
+                                <td> <input name="url" id="pic" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="ingrediente">Ingrediente:</label> </td>
+                                <td><textarea name="ingrediente" id="ingrediente" placeholder="Scrie ingredientele"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="reteta">Mod de preparare:</label></td>
+                                <td><textarea name="preparare" id="reteta"  rows="7" placeholder="Scrie modul de preparare"></textarea></td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2"><input type="submit" id="btnAdd" value="Adauga preparat" style="margin-left:-1em;"/></th>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+</body>
+</html>

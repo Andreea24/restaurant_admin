@@ -1,0 +1,62 @@
+ body{
+        background-color: #bbf4ed;
+        }
+        .page{
+            display:flex;
+            flex-direction: column;
+            padding:1em;      
+            }
+        .header{
+             display: flex;
+        }
+        #title{
+            font-size:2.4em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            margin-left: 1em;
+            flex:3;
+            }
+        #title a{
+            color:black; 
+            text-decoration: none;
+        }
+        #title a:hover{
+            color:rgb(80, 13, 204); 
+            text-decoration: none;
+        }
+        #container{ 
+                margin-left:1.5em;
+                    }
+        .numeClass{
+                font-weight: bold;
+                font-size:22px;
+                font-family:Arial, Helvetica, sans-serif;
+                }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:18px;
+            font-weight: bold;
+        }   
+        #btns{
+            display:inline-block;
+            }     
+        #no{
+            background-color: #63a0e6;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 15px;
+            padding: 7px;
+            text-decoration: none;
+            border:none;
+                }    
+        #yes{
+            background-color: #df4562;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 15px;
+            padding: 7px;
+            text-decoration: none;
+            border:none;
+        }
